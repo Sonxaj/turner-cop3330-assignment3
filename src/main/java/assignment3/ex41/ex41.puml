@@ -1,0 +1,10 @@
+@startuml
+class NameSorter{
+    ArrayList<String> names
+
+    addList(names, nameToAdd)
+    sortList(names)
+    printList(names)
+
+}
+@enduml
