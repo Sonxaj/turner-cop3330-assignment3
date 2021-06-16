@@ -1,8 +1,8 @@
 @startuml
 class NameSorter{
 
-    addList(File listOfNames, List<String> name)
-    sortList(names)
+    readNames(File listOfNames, List<String> name)
+    sortNames(names)
     printList(names)
 
 }
