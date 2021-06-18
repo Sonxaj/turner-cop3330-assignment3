@@ -1,0 +1,12 @@
+@startuml
+class WebsiteGenerator{
+
++folderCreate(String directory)
+
++rootFolderGen(String name)
++jScriptFolGen(String name)
++cssFolGen(String name)
++htmlGen(String name, String author)
+
+}
+@enduml
