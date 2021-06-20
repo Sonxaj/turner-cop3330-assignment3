@@ -1,0 +1,29 @@
+@startuml
+
+class product{
+
+-String name
+-double price
+-int quantity
+
++getName()
++getPrice()
++getQuantity
+
++compareName(String name)
+
++toString()
+
+}
+
+class productSearch(){
+
+-Scanner in
+-List<product> products
+-File input
+
++readFile()
++checkInv()
+
+}
+@enduml
