@@ -1,11 +1,13 @@
 @startuml
+
 class WordFinder{
 
 -String oldWord
 -String newWord
 
 +void replaceString(String outputName)
-+void setWords(String input)
++void setWords(String input, int choice)
 
 }
+
 @enduml

@@ -12,14 +12,14 @@ public class WordFinder {
 
     private String oldWord, newWord;
 
-    File inputFile = new File("src/main/java/assignment3/ex45/exercise45_input.txt");
+    File inputFile = new File("input/exercise45_input.txt");
 
 
     // opens file, searches, replaces, then rewrites to file
     public void replaceString(String outputName){
         try{
             BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-            FileWriter writer = new FileWriter("src/main/java/assignment3/ex45/" + outputName);
+            FileWriter writer = new FileWriter("output/" + outputName + ".txt");
 
             String text = "";
             String currentLine = reader.readLine();

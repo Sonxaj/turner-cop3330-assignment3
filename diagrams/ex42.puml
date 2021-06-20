@@ -1,7 +1,19 @@
 @startuml
+
 class DataParser{
     +readData(File inputFile, List<Person> data)
     +compareTo(Person 1, Person 2)
     +printData(List<Person> data)
 }
+
+class Person{
+    -String lastName
+    -String firstName
+    -int Salary
+
+    +getFirstName()
+    +getLastName()
+    +getSalary()
+}
+
 @enduml

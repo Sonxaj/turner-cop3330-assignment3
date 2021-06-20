@@ -54,7 +54,7 @@ public class App {
     public static void main(String[] args) {
         DataParser dataParser = new DataParser();
 
-        File inputFile = new File("src/main/java/assignment3/ex42/exercise42_input.txt");
+        File inputFile = new File("input/exercise42_input.txt");
         List<Person> data = new ArrayList<>();
 
         dataParser.readData(inputFile, data);

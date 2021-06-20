@@ -57,7 +57,7 @@ public class App {
 
         NameSorter nameSorter = new NameSorter();
 
-        File inputFile = new File("src/main/java/assignment3/ex41/exercise41_input.txt");
+        File inputFile = new File("input/exercise41_input.txt");
         List<String> names = new ArrayList<>();
 
         nameSorter.readNames(inputFile, names);

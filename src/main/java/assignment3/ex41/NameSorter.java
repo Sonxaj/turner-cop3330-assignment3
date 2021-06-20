@@ -43,7 +43,7 @@ public class NameSorter {
     public void printList(List<String> names){
         try{
             // create new output file
-            FileWriter outputFile = new FileWriter("src/main/java/assignment3/ex41/exercise41_output.txt");
+            FileWriter outputFile = new FileWriter("output/exercise41_output.txt");
 
             outputFile.write("Total of " + names.size() + " names\n");
             outputFile.write("-----------------\n");

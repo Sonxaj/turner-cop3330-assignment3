@@ -1,0 +1,28 @@
+@startuml
+
+class wordF{
+
+-String content
+-int frequency
+
++getContent()
++getFreq()
+
++incrementFreq()
+
++String printStars()
+
++compareTo(wordF word)
+}
+
+class wordFrequencyFinder{
+
+File input
+List<wordF> words
+
++readWord()
++printResult()
+
+}
+
+@enduml

@@ -19,7 +19,7 @@ public class WebsiteGenerator {
     public void rootFolderGen(String name){
 
         // create root folder
-        folderCreate("src/main/java/assignment3/ex43/website/" + name);
+        folderCreate("output/exercise43_output/website/" + name);
 
         // print success
         System.out.println("Created .../website/" + name);
@@ -32,7 +32,7 @@ public class WebsiteGenerator {
         if(choice.equalsIgnoreCase("y")){
 
             // create javaScript folder
-            folderCreate("src/main/java/assignment3/ex43/website/" + name + "/js");
+            folderCreate("output/exercise43_output/website/" + name + "/js");
 
             // print success
             System.out.println("Created .../website/" + name + "/js/");
@@ -46,7 +46,7 @@ public class WebsiteGenerator {
         if(choice.equalsIgnoreCase("y")){
 
             // create CSS folder
-            folderCreate("src/main/java/assignment3/ex43/website/" + name + "/css");
+            folderCreate("output/exercise43_output/website/" + name + "/css");
 
             // print success
             System.out.println("Created .../website/" + name + "/css/");
@@ -57,7 +57,7 @@ public class WebsiteGenerator {
     public void htmlGenerator(String name, String author){
 
         // create index.html
-        File htmlFile = new File("src/main/java/assignment3/ex43/website/" + name + "/index.html");
+        File htmlFile = new File("output/exercise43_output/website/" + name + "/index.html");
 
         // make string; edit <title> to "name" and <meta> to "author"
         String htmlText = "<html>\n" +

@@ -25,9 +25,9 @@ class WordFinderTest {
         finder.setWords("utilize", 1);
         finder.setWords("use", 2);
 
-        finder.replaceString("testOutput.txt");
+        finder.replaceString("exercise45_testOutput.txt");
 
-        Scanner scanner = new Scanner("src/main/java/assignment3/ex45/testOutput.txt");
+        Scanner scanner = new Scanner("output/exercise45_testOutput.txt");
 
         // search test file for old string
         while(scanner.hasNextLine()){

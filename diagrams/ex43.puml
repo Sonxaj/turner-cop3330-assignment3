@@ -1,4 +1,5 @@
 @startuml
+
 class WebsiteGenerator{
 
 +folderCreate(String directory)
@@ -9,4 +10,5 @@ class WebsiteGenerator{
 +htmlGen(String name, String author)
 
 }
+
 @enduml
