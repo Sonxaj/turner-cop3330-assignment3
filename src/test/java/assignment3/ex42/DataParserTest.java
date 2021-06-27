@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 class DataParserTest {
     DataParser dataParser = new DataParser();
-    File data = new File("src/main/java/assignment3/ex42/exercise42_input.txt");
+    File data = new File("input/exercise42_input.txt");
 
     @Test
     void readData_creates_and_adds_names_to_list() {
